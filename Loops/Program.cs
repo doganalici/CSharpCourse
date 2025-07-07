@@ -16,8 +16,31 @@ namespace Loops
 
             //DoWhileLoop();
 
-            ForEachLoop();
+            //ForEachLoop();
+
+            if (IsPriveNumber(7))
+            {
+                Console.WriteLine("This is prime number");
+            }
+            else
+            {
+                Console.WriteLine("This is not a prime number");
+            }
         }
+        private static bool IsPriveNumber(int number)
+        {
+            bool result = true;
+            for (int i = 2; i < number - 1; i++)
+            {
+                if (number % i == 0)
+                {
+                    result = false;
+                    i = number;
+                }
+            }
+            return result;
+        }
+
 
         private static void ForEachLoop()
         {
