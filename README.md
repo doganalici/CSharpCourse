@@ -8,6 +8,7 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 
 ## 📂 İçerik
 
+
 - **TypesAndVariables** → Temel tipler, değişkenler  
 - **Conditionals** → Koşullar (`if`, `switch`)  
 - **Loops** → Döngüler (`for`, `while`, `foreach`)  
@@ -18,6 +19,7 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 - **Inheritance** → Kalıtım örnekleri  
 - **Interfaces** → Arayüz kullanımı  
 - **InterfacesDemo** → Arayüzlerle yapılan uygulama örnekleri  
+- **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri 
 
 > 📌 Kurs ilerledikçe yeni konular ve örnek projeler bu repo içine eklenecektir.
 
