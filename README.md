@@ -19,7 +19,8 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 - **Inheritance** → Kalıtım örnekleri  
 - **Interfaces** → Arayüz kullanımı  
 - **InterfacesDemo** → Arayüzlerle yapılan uygulama örnekleri  
-- **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri 
+- **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri
+- **AbstractClasses** → Soyut sınıflar (abstract class) örnekleri  
 
 > 📌 Kurs ilerledikçe yeni konular ve örnek projeler bu repo içine eklenecektir.
 
