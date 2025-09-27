@@ -1,6 +1,6 @@
 # CSharpCourse 🎓
 
-Bu repo, **Udemy – Aranan Programcı Olma Kampı (Python, Java, C#)** kursundaki **C# dersleri** kapsamında yazılan örnek kodları içermektedir.  
+Bu repo, **Udemy – (100+ Saat) Aranan Programcı Olma Kampı (Python, Java, C#)** kursundaki **C# dersleri** kapsamında yazılan örnek kodları içermektedir.  
 
 Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sürecini kolaylaştırmaktır.
 
