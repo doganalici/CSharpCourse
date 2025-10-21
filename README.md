@@ -9,16 +9,18 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 ## 📂 İçerik
 
 
-- **AbstractClasses** → Soyut sınıflar ile çalışma  
-- **Arrays** → Diziler, çok boyutlu diziler  
-- **Classes** → Sınıflar ve nesne yönelimli programlama  
-- **Conditionals** → Koşullar (`if`, `switch`)  
-- **Inheritance** → Kalıtım örnekleri  
-- **Interfaces** → Arayüz kullanımı  
+- **AbstractClasses** → Soyut sınıflar (abstract class) örnekleri  
+- **AccessModifiers** → Erişim belirleyiciler (`public`, `private`, `protected`, `internal`) üzerine örnekler  
+- **AccessModifiersDemo** → Erişim belirleyicilerin farklı sınıf ve namespace senaryolarında kullanımı  
+- **Arrays** → Diziler ve çok boyutlu diziler örnekleri  
+- **Classes** → Sınıf tanımları ve nesne yönelimli programlama örnekleri  
+- **Conditionals** → Koşul ifadeleri (`if`, `switch`)  
+- **Inheritance** → Kalıtım (inheritance) örnekleri  
+- **Interfaces** → Arayüz (interface) kullanımı  
 - **InterfacesDemo** → Arayüzlerle yapılan uygulama örnekleri  
 - **Loops** → Döngüler (`for`, `while`, `foreach`)  
 - **Methods** → Metotlar, parametreler, overloading  
-- **RecapDemo** → Interface kullanarak **farklı loglama yöntemleri** (veritabanı, dosya, SMS) ile müşteri ekleme senaryosu  
+- **RecapDemo** → Interface tabanlı loglama (veritabanı, dosya, SMS) ile müşteri ekleme örneği  
 - **Strings** → String işlemleri  
 - **TypesAndVariables** → Temel tipler, değişkenler  
 - **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri  
