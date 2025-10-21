@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{38FC0643-E526-4B73-BFBC-49FC76F4B9AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{1F3FC9CF-C009-40CD-8C3D-55A6334A0B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{0CF3C1F2-171A-4447-BFA9-59317385FB51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{38FC0643-E526-4B73-BFBC-49FC76F4B9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FC0643-E526-4B73-BFBC-49FC76F4B9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FC0643-E526-4B73-BFBC-49FC76F4B9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3FC9CF-C009-40CD-8C3D-55A6334A0B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3FC9CF-C009-40CD-8C3D-55A6334A0B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3FC9CF-C009-40CD-8C3D-55A6334A0B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3FC9CF-C009-40CD-8C3D-55A6334A0B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
