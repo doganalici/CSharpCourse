@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{0CF3C1F2-171A-4447-BFA9-59317385FB51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{BB156193-5AA3-4976-AFDE-C64DA07DD377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF3C1F2-171A-4447-BFA9-59317385FB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB156193-5AA3-4976-AFDE-C64DA07DD377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB156193-5AA3-4976-AFDE-C64DA07DD377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB156193-5AA3-4976-AFDE-C64DA07DD377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB156193-5AA3-4976-AFDE-C64DA07DD377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
