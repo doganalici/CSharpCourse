@@ -22,9 +22,10 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 - **Loops** → Döngüler (`for`, `while`, `foreach`)  
 - **Methods** → Metotlar, parametreler, overloading  
 - **RecapDemo** → Interface tabanlı loglama (veritabanı, dosya, SMS) ile müşteri ekleme örneği  
+- **ReferenceAndValueType** → **Değer tipleri (Value Types)** ve **referans tipleri (Reference Types)** farkını gösteren örnek  
 - **Strings** → String işlemleri  
 - **TypesAndVariables** → Temel tipler, değişkenler  
-- **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri 
+- **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri  
 
 > 📌 Kurs ilerledikçe yeni konular ve örnek projeler bu repo içine eklenecektir.
 
