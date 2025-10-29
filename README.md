@@ -14,6 +14,7 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 - **AccessModifiersDemo** → Erişim belirleyicilerin farklı sınıf ve namespace senaryolarında kullanımı  
 - **Arrays** → Diziler ve çok boyutlu diziler örnekleri  
 - **Classes** → Sınıf tanımları ve nesne yönelimli programlama örnekleri  
+- **Collections** → Koleksiyon yapıları (`List`, `Dictionary` vb.) ve dizilere göre farkları  
 - **Conditionals** → Koşul ifadeleri (`if`, `switch`)  
 - **Constructors** → Yapıcı metotlar (constructor) kullanımı ve overload örnekleri  
 - **Inheritance** → Kalıtım (inheritance) örnekleri  
@@ -22,7 +23,7 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 - **Loops** → Döngüler (`for`, `while`, `foreach`)  
 - **Methods** → Metotlar, parametreler, overloading  
 - **RecapDemo** → Interface tabanlı loglama (veritabanı, dosya, SMS) ile müşteri ekleme örneği  
-- **ReferenceAndValueType** → **Değer tipleri (Value Types)** ve **referans tipleri (Reference Types)** farkını gösteren örnek  
+- **ReferenceAndValueType** → Değer tipleri (Value Types) ve referans tipleri (Reference Types) farkı  
 - **Strings** → String işlemleri  
 - **TypesAndVariables** → Temel tipler, değişkenler  
 - **VirtualMethods** → Sanal metotlar ve polimorfizm örnekleri  
