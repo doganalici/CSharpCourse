@@ -11,7 +11,9 @@ Amaç, kursta anlatılan konuları pratik yaparak pekiştirmek ve öğrenim sür
 
 - **AbstractClasses** → Soyut sınıflar (abstract class) örnekleri  
 - **AccessModifiers** → Erişim belirleyiciler (`public`, `private`, `protected`, `internal`) üzerine örnekler  
-- **AccessModifiersDemo** → Erişim belirleyicilerin farklı sınıf ve namespace senaryolarında kullanımı  
+- **AccessModifiersDemo** → Erişim belirleyicilerin farklı sınıf ve namespace senaryolarında kullanımı
+- **AdoNetDemo** → ADO.NET kullanarak SQL Server (LocalDB) üzerinden **Products** tablosundan veri çekme,  
+  `SqlConnection`, `SqlCommand`, `SqlDataReader` kullanımı ve Windows Forms (`DataGridView`) üzerinde listeleme
 - **Arrays** → Diziler ve çok boyutlu diziler örnekleri  
 - **Classes** → Sınıf tanımları ve nesne yönelimli programlama örnekleri  
 - **Collections** → Koleksiyon yapıları (`List`, `Dictionary`, `HashSet` vb.) ve dizilere göre farkları  
