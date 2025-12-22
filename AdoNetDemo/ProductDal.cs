@@ -10,15 +10,12 @@ namespace AdoNetDemo
 {
     public class ProductDal
     {
+        SqlConnection _connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
         public List<Product> GetAll()
         {
-            SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
-            if (connection.State == ConnectionState.Closed)
-            {
-                connection.Open();
-            }
+            ConnectionControl();
 
-            SqlCommand command = new SqlCommand("Select * from Products", connection);
+            SqlCommand command = new SqlCommand("Select * from Products", _connection);
 
             SqlDataReader reader = command.ExecuteReader();
 
@@ -35,27 +32,47 @@ namespace AdoNetDemo
                 products.Add(product);
             }
             reader.Close();
-            connection.Close();
+            _connection.Close();
             return products;
+        }
+
+        private void ConnectionControl()
+        {
+            if (_connection.State == ConnectionState.Closed)
+            {
+                _connection.Open();
+            }
         }
 
         public DataTable GetAll2()
         {
-            SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
-            if (connection.State == ConnectionState.Closed)
+            if (_connection.State == ConnectionState.Closed)
             {
-                connection.Open();
+                _connection.Open();
             }
 
-            SqlCommand command = new SqlCommand("Select * from Products", connection);
+            SqlCommand command = new SqlCommand("Select * from Products", _connection);
 
             SqlDataReader reader = command.ExecuteReader();
 
             DataTable dataTable = new DataTable();
             dataTable.Load(reader);
             reader.Close();
-            connection.Close();
+            _connection.Close();
             return dataTable;
+        }
+
+        public void Add(Product product)
+        {
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("Insert into Products (Name, UnitPrice, StockAmount) values (@name, @unitPrice, @stockAmount)",
+        _connection);
+            command.Parameters.AddWithValue("@name", product.Name);
+            command.Parameters.AddWithValue("@unitPrice", product.UnitPrice);
+            command.Parameters.AddWithValue("@stockAmount", product.StockAmount);
+            command.ExecuteNonQuery();
+
+            _connection.Close();
         }
     }
 }
